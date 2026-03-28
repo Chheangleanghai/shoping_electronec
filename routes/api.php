@@ -15,7 +15,7 @@ use App\Http\Controllers\GoogleAuthController;
 */
 
 // ------------------ Public Routes ------------------
-Route::post('/register', [AuthController::class, 'regi`xster']);
+Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
 
 
@@ -31,7 +31,6 @@ Route::post('/orders', [OrderController::class, 'store']); // guests can create 
 
 // ------------------ Authenticated Routes ------------------
 Route::middleware('auth:api')->group(function () {
-// b
     // Basic user info
     Route::get('/me', [AuthController::class, 'me']);
     Route::post('/logout', [AuthController::class, 'logout']);
