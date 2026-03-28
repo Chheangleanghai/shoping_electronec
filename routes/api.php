@@ -31,7 +31,7 @@ Route::post('/orders', [OrderController::class, 'store']); // guests can create 
 
 // ------------------ Authenticated Routes ------------------
 Route::middleware('auth:api')->group(function () {
-// a
+// b
     // Basic user info
     Route::get('/me', [AuthController::class, 'me']);
     Route::post('/logout', [AuthController::class, 'logout']);
