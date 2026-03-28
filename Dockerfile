@@ -22,7 +22,7 @@ RUN mkdir -p storage/framework/sessions \
     storage/framework/cache \
     storage/logs bootstrap/cache
 
-RUN chown -R www-data:www-data /var/www
+RUN chown -R www-data:www-data storage bootstrap/cache
 RUN chmod -R 775 /var/www/storage /var/www/bootstrap/cache
 
 COPY nginx.conf /etc/nginx/sites-enabled/default
