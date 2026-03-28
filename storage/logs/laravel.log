@@ -10252,3 +10252,48 @@ LINE 1: insert into "orders" ("name", "email", "address", "city", "p...
 #10 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
 #11 {main}
 "} 
+[2026-03-28 20:19:44] production.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Input\\ArgvInput.php:223)
+[stacktrace]
+#0 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Input\\ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Input\\ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Input\\ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Input\\Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Command\\Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run()
+#7 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2026-03-28 20:19:51] production.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Input\\ArgvInput.php:223)
+[stacktrace]
+#0 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Input\\ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Input\\ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Input\\ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Input\\Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Command\\Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run()
+#7 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2026-03-28 20:19:56] production.ERROR: The "--columns" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"--columns\" option does not exist. at D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Input\\ArgvInput.php:223)
+[stacktrace]
+#0 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Input\\ArgvInput.php(150): Symfony\\Component\\Console\\Input\\ArgvInput->addLongOption()
+#1 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Input\\ArgvInput.php(85): Symfony\\Component\\Console\\Input\\ArgvInput->parseLongOption()
+#2 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Input\\ArgvInput.php(74): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Input\\Input.php(56): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Command\\Command.php(285): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(180): Symfony\\Component\\Console\\Command\\Command->run()
+#6 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Application.php(1096): Illuminate\\Console\\Command->run()
+#7 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Application.php(324): Symfony\\Component\\Console\\Application->doRunCommand()
+#8 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun()
+#9 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(201): Symfony\\Component\\Console\\Application->run()
+#10 D:\\Web_Backend\\Web_laravel_9-11\\Backend\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
