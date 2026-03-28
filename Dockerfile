@@ -11,11 +11,16 @@ RUN docker-php-ext-install \
     pdo pdo_pgsql pgsql mbstring exif pcntl bcmath gd
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+RUN apt-get install -y nodejs npm
 
 WORKDIR /var/www
 COPY . .
 
 RUN composer install --no-dev --optimize-autoloader
+
+
+RUN npm install
+RUN npm run build
 
 RUN mkdir -p storage/framework/sessions \
     storage/framework/views \

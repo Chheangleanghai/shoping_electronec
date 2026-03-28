@@ -1,0 +1,1 @@
+<?php /**PATH D:\Web_Backend\Web_laravel_9-11\Backend\resources\views/welcome.blade.php ENDPATH**/ ?>
