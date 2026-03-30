@@ -29,6 +29,10 @@ Route::get('/products/{id}', [ProductController::class, 'show']);
 // Public order creation (checkout)
 Route::post('/orders', [OrderController::class, 'store']); // guests can create order
 
+    Route::post('/products', [ProductController::class, 'store']);
+    Route::post('/products/{id}', [ProductController::class, 'update']);
+    Route::delete('/products/{id}', [ProductController::class, 'destroy']);
+
 // ------------------ Authenticated Routes ------------------
 Route::middleware('auth:api')->group(function () {
     // Basic user info
@@ -37,7 +41,6 @@ Route::middleware('auth:api')->group(function () {
 
     //  User submits payment info after checkout (normal user)
     Route::post('/users/paid', [UserController::class, 'paid']);
-
     // ------------------ Admin-only Routes ------------------
     Route::middleware('admin')->group(function () {
 
@@ -52,9 +55,6 @@ Route::middleware('auth:api')->group(function () {
         Route::delete('/users/{id}', [UserController::class, 'destroy']);
 
         //  Product management
-        Route::post('/products', [ProductController::class, 'store']);
-        Route::post('/products/{id}', [ProductController::class, 'update']);
-        Route::delete('/products/{id}', [ProductController::class, 'destroy']);
 
         //  Orders management for admin
         Route::get('/orders/paid', [OrderController::class, 'paidOrders']); // get only paid orders
